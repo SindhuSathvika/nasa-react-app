@@ -199,6 +199,23 @@ footer button:hover {
   }
 }
 
+a {
+  font-size: 18px;
+  color: #1e90ff;  /* A nice blue color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  color: #ff6347;  /* A warm color when hovering */
+  transform: scale(1.05);  /* Slight zoom effect on hover */
+}
+
+a:focus {
+  outline: 2px solid #ff6347;  /* Outline to make the link more accessible */
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
